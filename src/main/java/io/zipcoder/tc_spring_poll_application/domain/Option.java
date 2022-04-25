@@ -12,7 +12,7 @@ public class Option {
 
     @Id
     @GeneratedValue
-    @Column(name = "OPTION_ID")
+    @Column(name = "OPTION_ID", nullable = false)
     private Long id;
 
     @Column(name ="OPTION_VALUE")
